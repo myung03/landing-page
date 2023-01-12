@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
@@ -32,4 +37,59 @@ nav a {
     font-weight: 500;
     color: #F9FAF8;
     padding-left: 100px;
+}
+
+.hero {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+.hero-text {
+    padding-left: 100px;
+    width: 400px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-text p, .hero-image {
+   font-size: 18px;
+   font-weight: 300;
+   color: #E5E7EB;
+}
+
+.hero-image {
+    background-color: grey;
+    margin-right: 100px;
+    opacity: 0.5;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero-button:hover {
+    background-color: transparent;
+    border-width: 2px;
+    border-color:  #3882F6;
 }
