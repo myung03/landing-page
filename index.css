@@ -80,6 +80,7 @@ nav a {
     border-width: 2px;
     border-color: transparent;
     border-radius: 5px;
+    border-style: solid;
     padding: 5px 20px;
     font-weight: bold;
     font-size: 14px;
@@ -172,4 +173,50 @@ nav a {
     padding-right: 10px;
     font-style: bold;
     font-weight: 700;
+}
+
+.action {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.action-text {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+}
+
+.action-button {
+    font-size: 16px;
+    background-color: transparent;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 30px;
+    margin-left: 100px;
+    transition: 0.2s
+}
+
+.action-button:hover {
+    background-color: #E5E7EB;
+    color:  #3882F6;
+}
+
+.action-text-call span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.action-text-call {
+    line-height: 30px;
 }
