@@ -220,3 +220,13 @@ nav a {
 .action-text-call {
     line-height: 30px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
+    padding: 20px 5px;
+}
